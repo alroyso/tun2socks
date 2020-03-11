@@ -5,8 +5,8 @@ package main
 import (
 	"flag"
 
-	"github.com/xjasonlyu/tun2socks/component/fakedns"
-	"github.com/xjasonlyu/tun2socks/log"
+	"github.com/alroyso/tun2socks/component/fakedns"
+	"github.com/alroyso/tun2socks/log"
 )
 
 func init() {
