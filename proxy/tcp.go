@@ -7,12 +7,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xjasonlyu/tun2socks/common/lsof"
-	"github.com/xjasonlyu/tun2socks/common/pool"
-	"github.com/xjasonlyu/tun2socks/core"
-	"github.com/xjasonlyu/tun2socks/log"
+	"github.com/alroyso/tun2socks/common/lsof"
+	"github.com/alroyso/tun2socks/common/pool"
+	"github.com/alroyso/tun2socks/core"
+	"github.com/alroyso/tun2socks/log"
 
-	S "github.com/xjasonlyu/tun2socks/component/session"
+	S "github.com/alroyso/tun2socks/component/session"
 )
 
 type tcpHandler struct {

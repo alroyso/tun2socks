@@ -7,7 +7,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	win "github.com/xjasonlyu/tun2socks/common/lsof/windows"
+	win "github.com/alroyso/tun2socks/common/lsof/windows"
 )
 
 func GetCommandNameBySocket(network string, addr string, port uint16) (string, error) {

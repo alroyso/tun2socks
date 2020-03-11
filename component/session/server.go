@@ -13,7 +13,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	C "github.com/xjasonlyu/tun2socks/constant"
+	C "github.com/alroyso/tun2socks/constant"
 )
 
 const maxCompletedSessions = 100

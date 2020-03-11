@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"strings"
 
-	D "github.com/xjasonlyu/tun2socks/component/fakedns"
-	S "github.com/xjasonlyu/tun2socks/component/session"
+	D "github.com/alroyso/tun2socks/component/fakedns"
+	S "github.com/alroyso/tun2socks/component/session"
 )
 
 var (

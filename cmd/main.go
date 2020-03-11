@@ -12,15 +12,15 @@ import (
 	"syscall"
 	"time"
 
-	C "github.com/xjasonlyu/tun2socks/constant"
-	"github.com/xjasonlyu/tun2socks/core"
-	"github.com/xjasonlyu/tun2socks/filter"
-	"github.com/xjasonlyu/tun2socks/log"
-	"github.com/xjasonlyu/tun2socks/proxy"
-	"github.com/xjasonlyu/tun2socks/tun"
+	C "github.com/alroyso/tun2socks/constant"
+	"github.com/alroyso/tun2socks/core"
+	"github.com/alroyso/tun2socks/filter"
+	"github.com/alroyso/tun2socks/log"
+	"github.com/alroyso/tun2socks/proxy"
+	"github.com/alroyso/tun2socks/tun"
 
-	D "github.com/xjasonlyu/tun2socks/component/fakedns"
-	S "github.com/xjasonlyu/tun2socks/component/session"
+	D "github.com/alroyso/tun2socks/component/fakedns"
+	S "github.com/alroyso/tun2socks/component/session"
 )
 
 const MTU = 1500

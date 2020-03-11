@@ -3,8 +3,8 @@ package filter
 import (
 	"io"
 
-	"github.com/xjasonlyu/tun2socks/common/packet"
-	"github.com/xjasonlyu/tun2socks/log"
+	"github.com/alroyso/tun2socks/common/packet"
+	"github.com/alroyso/tun2socks/log"
 )
 
 type icmpFilter struct {

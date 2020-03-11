@@ -8,8 +8,8 @@ import (
 
 	D "github.com/miekg/dns"
 
-	T "github.com/xjasonlyu/tun2socks/common/domain-trie"
-	F "github.com/xjasonlyu/tun2socks/common/fakeip"
+	T "github.com/alroyso/tun2socks/common/domain-trie"
+	F "github.com/alroyso/tun2socks/common/fakeip"
 )
 
 const (

@@ -5,7 +5,7 @@ import (
 	"net"
 	"sync"
 
-	"github.com/xjasonlyu/tun2socks/common/cache"
+	"github.com/alroyso/tun2socks/common/cache"
 )
 
 // Pool is a implementation about fake ip generator without storage

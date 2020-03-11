@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xjasonlyu/tun2socks/proxy/socks"
+	"github.com/alroyso/tun2socks/proxy/socks"
 )
 
 // Error
